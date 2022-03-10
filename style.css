@@ -1,8 +1,53 @@
 body{
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 
 .header{
     display: flex;
+    background-color:#1F2937;
+    justify-content: space-around;
+    height: 40px;
+    align-items: center;
 }
+
+.logo{
+    display: flex;
+    color:#F9FAF8 ;
+    font-size: 24px ;
+    padding-right: 0px;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+a{
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.main{
+    background-color:#1F2937;
+    height: 400px;
+    color: #E5E7EB;
+}
+
+/* Colors and fonts
+dark background color: #1F2937
+Hero Main text: 48px extra-bold #F9FAF8
+
+Hero secondary text, Header Link Text: 18px #E5E7EB
+Header Logo Text: 24px #F9FAF8
+
+Button color, call to action background colo: #3882F6
+
+information header text: 36px extra bold #1F2937
+
+Quote section bvackground color: #E5E7EB
+
+Quote text: 36px light italic #1F2937
+*/

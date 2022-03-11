@@ -2,6 +2,8 @@ body{
     display: flex;
     flex-direction: column;
     margin: 0;
+    /*font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    */
 }
 
 .header{
@@ -24,7 +26,7 @@ ul{
     list-style: none;
     gap: 25px;
 }
-a{
+a, .left-text p{
     text-decoration: none;
     color: #E5E7EB;
     font-size: 18px;
@@ -33,8 +35,62 @@ a{
 .main{
     background-color:#1F2937;
     height: 400px;
-    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
 }
+
+.left-text h1{
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 800; /*extra bold ???*/
+}
+
+.left-text button{
+    background-color: #3882F6;
+    color: #F9FAF8; /*??????? idk wat color but all these whites are the same shit lol*/
+    width: 120px;
+    height: 30px;
+    font-size: 17px;
+}
+
+.right-image img{
+    width: 600px;
+}
+
+/*INFO*/
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.info h2{
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937; 
+}
+
+.info p{
+    font-size: 18px;
+    color: #1F2937;
+}
+
+.allCards{
+    display: flex;
+    gap: 25px;
+}
+.info img{
+    width: 180px;
+    border-radius: 10%;
+    border: 5px solid #3882F6;
+}
+
+.card{
+    max-width: 200px;
+}
+
 
 /* Colors and fonts
 dark background color: #1F2937

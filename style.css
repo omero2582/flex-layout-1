@@ -32,13 +32,14 @@ a, .left-text p{
     font-size: 18px;
 }
 
+/*main section*/
 .main{
     background-color:#1F2937;
     height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 120px;
+    gap: 100px;
 }
 
 .left-text h1{
@@ -47,16 +48,22 @@ a, .left-text p{
     font-weight: 800; /*extra bold ???*/
 }
 
+.left-text {
+    max-width: 400px;
+}
+
 .left-text button{
     background-color: #3882F6;
     color: #F9FAF8; /*??????? idk wat color but all these whites are the same shit lol*/
     width: 120px;
-    height: 30px;
+    height: 35px;
     font-size: 17px;
+    border-radius: 10px;
+    border-width: 0px;
 }
 
 .right-image img{
-    width: 600px;
+    width: 500px;
 }
 
 /*INFO*/
@@ -65,11 +72,13 @@ a, .left-text p{
     display: flex;
     flex-direction: column;
     align-items: center;
+    min-height: 450px;
 }
 .info h2{
     font-size: 36px;
     font-weight: 800;
-    color: #1F2937; 
+    color: #1F2937;
+    margin-top: 40px;
 }
 
 .info p{
@@ -91,6 +100,91 @@ a, .left-text p{
     max-width: 200px;
 }
 
+/*QUOTE*/
+.quote-section{
+    min-height: 380px;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote{
+    display: flex;
+    flex-direction: column ;
+}
+
+.quote-text{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    max-width: 900px;
+    margin: 0;
+    margin-top:30px;
+}
+
+.quote-author{
+    align-self: flex-end;
+    font-size: 30px;
+    font-weight: 800;
+    margin: 0;
+    margin-top: 10px;
+    
+}
+
+/*CALL TO ACTION*/
+.sign-up{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+}
+
+.sign-up-content{
+    background-color: #3882F6;
+    min-width: 1100px;
+    min-height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+
+.sign-up-content button{
+    min-width: 130px;
+    min-height: 35px;
+    border-radius: 10px;
+    background-color: #3882F6;
+    border: 3px solid #F9FAF8;
+    color: #F9FAF8;
+    font-size: 18px;
+}
+
+.sign-up-content h3{
+    color: #F9FAF8;
+    font-size: 27px;
+    margin: 0px;
+}
+.sign-up-content p{
+    color: #E5E7EB;
+    font-size: 19px;
+    margin: 0px;
+}
+
+
+/*Footer*/
+
+.footer{
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-size: 18px;
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 /* Colors and fonts
 dark background color: #1F2937
